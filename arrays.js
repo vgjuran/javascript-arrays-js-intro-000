@@ -19,7 +19,7 @@ function addElementToEndOfArray(array, element){
   
 }
 
-function destructivelyRemoveElementFromEndOfArray(array, element){
+function destructivelyAddElementToEndOfArray(array, element){
   array.push(element);
   return array;
 }
